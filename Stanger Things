@@ -1,0 +1,54 @@
+Claro! Abaixo está um exemplo de um catálogo de vídeos em HTML sobre a série "Stranger Things", utilizando os links do YouTube que você forneceu. Você pode copiar e colar esse código HTML em um arquivo .html e abri-lo em um navegador para visualizar o catálogo.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos - Stranger Things</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+        h1 {
+            text-align: center;
+            color: #f00;
+        }
+        .video {
+            margin: 20px 0;
+            text-align: center;
+        }
+        iframe {
+            width: 720px;
+            height: 405px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Vídeos - Stranger Things</h1>
+    
+    <div class="video">
+        <h2>Vídeo 1: Stranger Things | Official Trailer</h2>
+        <iframe src="https://www.youtube.com/embed/wB_heD1_Ulk" frameborder="0" allowfullscreen></iframe>
+        <p><a href="https://youtu.be/wB_heD1_Ulk" target="_blank" style="color: #00f;">Assistir no YouTube</a></p>
+    </div>
+    
+    <div class="video">
+        <h2>Vídeo 2: Stranger Things | Season 4 Recap</h2>
+        <iframe src="https://www.youtube.com/embed/n5rt3bpG52g" frameborder="0" allowfullscreen></iframe>
+        <p><a href="https://youtu.be/n5rt3bpG52g?feature=shared" target="_blank" style="color: #00f;">Assistir no YouTube</a></p>
+    </div>
+</body>
+</html>
+```
+
+### Instruções:
+1. Abra um editor de texto (como Notepad no Windows, TextEdit no macOS ou um editor de código como Visual Studio Code).
+2. Copie o código acima e cole no editor.
+3. Salve o arquivo com a extensão `.html` (por exemplo, `catalogo_stranger_things.html`).
+4. Abra o arquivo salvo em um navegador
